@@ -1,0 +1,55 @@
+.banner_img {
+    background-color: rgba(0, 0, 0, .7);
+    object-fit: cover;
+    opacity: 0.6 !important;
+}
+
+.about_text {
+    position: absolute;
+    top: 30%;
+    left: 42%;
+}
+
+.aboutImg {
+    height: 400px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .about_text{
+        left: 35%;
+    }
+    .contact_box{
+        width: 87% !important;
+        margin-left: 5% !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .about_text {
+        left: 32%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .contact_box {
+        margin-left: 18% !important;
+        }
+        .contact_info{
+            margin-top: -10% !important;
+        }
+}
+
+@media only screen and (max-width: 600px) {
+    .about_text {
+        left: 20% !important;
+    }
+    .contact_box {
+      margin-left: 10% !important;
+     }
+    .contact_info {
+       margin-top: -6% !important;
+     }
+     .contact_title{
+        font-size: 35px !important;
+     }
+}

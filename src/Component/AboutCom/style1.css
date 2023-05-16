@@ -1,0 +1,71 @@
+/* about */
+.banner_img {
+   background-color: rgba(0, 0, 0, .7) ;
+    object-fit: cover;
+    opacity: 0.6 !important;
+ }
+
+ .about_text{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+.aboutImg{
+   height: 400px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+   .team_info{
+      margin-left:16% !important;
+   }
+   .aboutImg{
+      margin-left: 50%;
+   }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+   .about_info{
+      flex-direction: column-reverse !important;
+   }
+   .aboutImg{
+      margin-left: 40% !important;
+   }
+   .team_info{
+      margin-left: 15% !important;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .aboutImg {
+         margin-left: 23% !important;
+      }
+       .box_width {
+         max-width: 96% !important;
+       }
+       .team_box{
+         width: 83% !important;
+         margin-left: 7% !important;
+       }
+       .about_text{
+            left: 30%  !important;
+       }
+}
+
+@media only screen and (max-width: 600px) {
+   .aboutImg {
+         width: 150% !important;
+         height: 300px !important;
+         margin-left: 28% !important;
+   }
+   .team_box{
+     flex-direction: column !important;
+     width: 132% !important;
+   margin-left: 14% !important;
+   }
+        .about_text {
+           left: 26% !important;
+        }
+}
